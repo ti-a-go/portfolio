@@ -1,6 +1,6 @@
 # [Films Wishlist - Node e Nest.js](https://github.com/ti-a-go/films-wishlist)
 
-Esse projeto é uma API REST onde o usuário pode criar lista de desejo de filmes presentes no The Movie Database.
+This is a REST API where the user can create wishlist of movies they want to watch. The API uses data provided by [The Movie Database](https://developer.themoviedb.org/docs/getting-started).
 
 Stack utilizada:
 - Nestjs
@@ -12,38 +12,36 @@ Stack utilizada:
 
 # [Datapipeline - Python e Spark](https://github.com/ti-a-go/datapipeline/tree/main)
 
-Esse projeto é um pipeline de dados ETL que carrega dados de clientes e compras de um banco de dados, transforma esses dados e extrai algumas análises.
+This project is a data pipeline (ETL) that loads data from a Postgres DB about clients, products and purchases. Then it transforms the data to find some informations like the most sold products.
 
-Os dados em questão são dados de e-commerce.
+Some information found with the data transformation: 
+- most sold products
+- most purchased products by client.
+- revenue by client
+- transactions by client
 
-Entre as análises feitas nesses dados estão: 
-- listagem dos produtos mais vendidos
-- produtos mais comprados por cliente
-- cálculo da receita por cliente
-
-Stack utilizada:
-- Docker e Compose
+Stack:
+- Docker and Compose
 - Python
-- Testes Automatizados/Pytest
+- Automated tests/ Pytest
 - Spark
 - Postgres
 
 
 # [Futebol e Estatística - Python e Pandas](https://github.com/ti-a-go/estatistica-e-futebol/tree/main)
 
-Esse projeto é baseado no livro Noções de Probabilidade e Estatística e utiliza uma base de dados sobre o Campeonato Brasileiro de Futebol para apresentar alguns conceitos básicos da Estatíscia (como o de Variável aleatória, Estatística descritiva, População e Amostra, entre outros).
+This project is based on the book "Noções de Probabilidade e Estatística" and uses a dataset about the brasilian soccer championship (Campeonato Brasileiro) to present some basics concepts from Statistics (like random variable, descriptve statistic, population and sample).
 
-Stack utilizada:
-- Estatística
+Stack:
 - Python
 - Pandas
 
 
 # [Brasileirão Dashboard - Python, Seaborn e Streamlit](https://github.com/ti-a-go/brasileirao-dashboard/tree/main)
 
-Esse projeto ainda está em contrução. Ele pretende apresentar os dados do Campeonato Brasileiro de Futebol (mesmo dataset do projeto anterior - Futebol e Estatística) a partir de um Dashboard.
+This is a "work in progres" projecgt. It intend to present the dataset about the brasilian soccer championship (same dataset mantioned in the project above) by building a dashboard.
 
-Stack utilizada:
+Stack:
 - Python
 - Streamlit
 - Pandas
@@ -53,18 +51,18 @@ Stack utilizada:
 
 # Organo (Alura) - React.js e FastAPI (Python)
 
-Esse projeto foi feito a partir de um curso de React da Alura. O frontend foi desenvolvido durante o curso. O backend não fazia parte do curso, mas eu resolvi criá-lo para praticar meus conhecimentos de desenvolvimento de APIs REST e FastAPI, além de habilitar a possibilidade de salvar os dados do frontend num banco dadados.
+This project was built from a React course at Alura. The frontend was developed during the course. The backend was build after that as a way of practicing my skills on REST API and FastAPI.
 
 ## [Frontend](https://github.com/ti-a-go/organo-frontend/tree/main)
 
-Stack utilizada:
+Stack:
 - React
 - React Query
 - Typescript
 
 ## [Backend](https://github.com/ti-a-go/organo-backend)
 
-Stack utilizada:
+Stack:
 - Python
 - FastAPI
 - Alambic/Database migrations
@@ -74,18 +72,17 @@ Stack utilizada:
 
 # Django (Alura)
 
-Esses projetos foram desenvolvido a partir do curso de Django da Alura. O primeiro foi feito durante o curso e o segundo foi feito como forma de colocar em prática aquilo que foi aprendido durante o curso. 
+This projects was also developed from courses at Alura. The first one was built during the course and the other one was built to practice what I'd learned.
 
-Stack utilizada:
+Stack:
 - Python
 - Docker
 - Django
 - Postgres
 
-[Projeto desenvolvido durante o curso](https://github.com/ti-a-go/curso-alura_django-templates-e-boas-praticas)
+[Project developed during the course](https://github.com/ti-a-go/curso-alura_django-templates-e-boas-praticas)
 
 
-
-[Colocando em prática o que foi aprendido](https://github.com/ti-a-go/careers-service/tree/main)
+[Project developed to practice](https://github.com/ti-a-go/careers-service/tree/main)
 
 
